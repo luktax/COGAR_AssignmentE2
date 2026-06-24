@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "go2_stair_interfaces__py",
+		"source" : "/home/lukat/COGAR_ws/build/go2_stair_interfaces/go2_stair_interfaces__py"
+	}
+}

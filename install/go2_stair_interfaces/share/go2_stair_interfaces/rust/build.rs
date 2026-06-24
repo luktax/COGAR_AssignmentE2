@@ -1,0 +1,1 @@
+/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_rs/go2_stair_interfaces/rust/build.rs

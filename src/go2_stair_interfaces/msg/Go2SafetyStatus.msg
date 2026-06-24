@@ -1,0 +1,31 @@
+std_msgs/Header header
+
+uint8 SAFE=0
+uint8 WARNING=1
+uint8 STOP_REQUIRED=2
+uint8 RECOVERY_REQUIRED=3
+
+uint8 status
+string reason
+
+float32 roll_error
+float32 pitch_error
+float32 roll_rate
+float32 pitch_rate
+
+uint8 contact_count
+bool[4] foot_contact
+
+bool state_timeout
+bool attitude_warning
+bool attitude_stop
+bool rate_warning
+bool rate_stop
+bool contact_warning
+bool contact_stop
+bool battery_warning
+bool battery_stop
+
+float32 sport_age_s
+float32 lowstate_age_s
+uint8 battery_soc

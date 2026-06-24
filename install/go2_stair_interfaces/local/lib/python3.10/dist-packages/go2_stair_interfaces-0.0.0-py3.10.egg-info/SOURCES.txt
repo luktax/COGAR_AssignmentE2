@@ -1,0 +1,1 @@
+/home/lukat/COGAR_ws/build/go2_stair_interfaces/ament_cmake_python/go2_stair_interfaces/go2_stair_interfaces.egg-info/SOURCES.txt

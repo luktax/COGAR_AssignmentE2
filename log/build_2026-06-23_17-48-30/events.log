@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.002799] (go2_stair_interfaces) JobQueued: {'identifier': 'go2_stair_interfaces', 'dependencies': OrderedDict()}
+[0.004429] (go2_stair_interfaces) JobStarted: {'identifier': 'go2_stair_interfaces'}
+[0.034650] (go2_stair_interfaces) JobProgress: {'identifier': 'go2_stair_interfaces', 'progress': 'cmake'}
+[0.038835] (go2_stair_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/lukat/COGAR_ws/src/go2_stair_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/lukat/COGAR_ws/install/go2_stair_interfaces'], 'cwd': '/home/lukat/COGAR_ws/build/go2_stair_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lukat'), ('GIT_ASKPASS', '/home/lukat/.vscode-server/bin/fcf604774b9f2674b473065736ee75077e256353/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lukat'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file:///home/lukat/unitree_ros2/cyclonedds_go2.xml'), ('OLDPWD', '/home/lukat/COGAR_ws/src'), ('TERM_PROGRAM_VERSION', '1.125.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d9a7cd14-a677-45c5-8303-160b806ad3fe.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lukat/.vscode-server/bin/fcf604774b9f2674b473065736ee75077e256353/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lukat/.vscode-server/bin/fcf604774b9f2674b473065736ee75077e256353/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_CONDA_ROOT', '/home/lukat/miniconda3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lukat/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lukat'), ('NAME', 'HP-EliteBook'), ('WSL_INTEROP', '/run/WSL/426_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lukat/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/lukat/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/lukat/.vscode-server/bin/fcf604774b9f2674b473065736ee75077e256353/bin/remote-cli:/home/lukat/.local/bin:/home/lukat/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/lukat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lukat/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7373f45496.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/lukat/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('_CONDA_EXE', '/home/lukat/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lukat/COGAR_ws/build/go2_stair_interfaces'), ('COPILOT_DEBUG_NONCE', '3cae775b8b8024844ec3212e9461dcaf'), ('CONDA_EXE', '/home/lukat/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/lukat/unitree_ros2/cyclonedds_ws/install/unitree_api'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099620] (-) TimerEvent: {}
+[0.200463] (-) TimerEvent: {}
+[0.301022] (-) TimerEvent: {}
+[0.401465] (-) TimerEvent: {}
+[0.502409] (-) TimerEvent: {}
+[0.603035] (-) TimerEvent: {}
+[0.638127] (go2_stair_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703185] (-) TimerEvent: {}
+[0.804063] (-) TimerEvent: {}
+[0.904448] (-) TimerEvent: {}
+[1.004898] (-) TimerEvent: {}
+[1.008798] (go2_stair_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.105060] (-) TimerEvent: {}
+[1.131384] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.205274] (-) TimerEvent: {}
+[1.284394] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.292248] (go2_stair_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.293084] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.294827] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.300691] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.305706] (-) TimerEvent: {}
+[1.406190] (-) TimerEvent: {}
+[1.435530] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.442879] (go2_stair_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.443141] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.443648] (go2_stair_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.496626] (go2_stair_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.506378] (-) TimerEvent: {}
+[1.606870] (-) TimerEvent: {}
+[1.707251] (-) TimerEvent: {}
+[1.807600] (-) TimerEvent: {}
+[1.907973] (-) TimerEvent: {}
+[2.008321] (-) TimerEvent: {}
+[2.009079] (go2_stair_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.108523] (-) TimerEvent: {}
+[2.209006] (-) TimerEvent: {}
+[2.226405] (go2_stair_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.309195] (-) TimerEvent: {}
+[2.406586] (go2_stair_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.409402] (-) TimerEvent: {}
+[2.422450] (go2_stair_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.451319] (go2_stair_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.502930] (go2_stair_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.509518] (-) TimerEvent: {}
+[2.557144] (go2_stair_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.609706] (-) TimerEvent: {}
+[2.636423] (go2_stair_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.709938] (-) TimerEvent: {}
+[2.810379] (-) TimerEvent: {}
+[2.910748] (-) TimerEvent: {}
+[2.911305] (go2_stair_interfaces) StderrLine: {'line': b"Error parsing '/home/lukat/COGAR_ws/src/go2_stair_interfaces/package.xml':\n"}
+[3.010948] (-) TimerEvent: {}
+[3.063231] (go2_stair_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.063550] (go2_stair_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[3.063617] (go2_stair_interfaces) StderrLine: {'line': b'    main()\n'}
+[3.063675] (go2_stair_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[3.063767] (go2_stair_interfaces) StderrLine: {'line': b'    raise e\n'}
+[3.063857] (go2_stair_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[3.063925] (go2_stair_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.063982] (go2_stair_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[3.065304] (go2_stair_interfaces) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[3.065919] (go2_stair_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/lukat/COGAR_ws/src/go2_stair_interfaces/package.xml':\n"}
+[3.066066] (go2_stair_interfaces) StderrLine: {'line': b'Error(s):\n'}
+[3.066131] (go2_stair_interfaces) StderrLine: {'line': b"- The generic dependency on 'rosidl_default_generators' is redundant with: build_depend\n"}
+[3.089784] (go2_stair_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[3.089940] (go2_stair_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.089997] (go2_stair_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.090048] (go2_stair_interfaces) StderrLine: {'line': b'  /home/lukat/COGAR_ws/src/go2_stair_interfaces/package.xml\n'}
+[3.090148] (go2_stair_interfaces) StderrLine: {'line': b'  /home/lukat/COGAR_ws/build/go2_stair_interfaces/ament_cmake_core/package.cmake)\n'}
+[3.090273] (go2_stair_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[3.090384] (go2_stair_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.090437] (go2_stair_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.090491] (go2_stair_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[3.090735] (go2_stair_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[3.090844] (go2_stair_interfaces) StderrLine: {'line': b'\n'}
+[3.090952] (go2_stair_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[3.091204] (go2_stair_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.091322] (go2_stair_interfaces) StdoutLine: {'line': b'See also "/home/lukat/COGAR_ws/build/go2_stair_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[3.100624] (go2_stair_interfaces) CommandEnded: {'returncode': 1}
+[3.101540] (go2_stair_interfaces) JobEnded: {'identifier': 'go2_stair_interfaces', 'rc': 1}
+[3.111289] (-) TimerEvent: {}
+[3.112599] (-) EventReactorShutdown: {}

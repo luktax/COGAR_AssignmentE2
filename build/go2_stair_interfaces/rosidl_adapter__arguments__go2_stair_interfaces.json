@@ -1,0 +1,6 @@
+{
+  "package_name": "go2_stair_interfaces",
+  "non_idl_tuples": [
+    "/home/lukat/COGAR_ws/src/go2_stair_interfaces:msg/Go2SafetyState.msg"
+  ]
+}

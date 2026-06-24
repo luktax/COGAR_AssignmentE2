@@ -1,0 +1,1 @@
+/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.h

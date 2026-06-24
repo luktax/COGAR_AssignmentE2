@@ -1,0 +1,1 @@
+/home/lukat/COGAR_ws/build/go2_stair_interfaces/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,1 @@
+/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_c/go2_stair_interfaces/msg/rosidl_generator_c__visibility_control.h

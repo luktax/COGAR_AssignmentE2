@@ -1,0 +1,1 @@
+/home/lukat/COGAR_ws/src/go2_stair_interfaces/msg/Go2SafetyState.msg
