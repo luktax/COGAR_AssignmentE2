@@ -77,14 +77,6 @@ module go2_stair_interfaces {
       float__12 joint_tau_est;
 
       @verbatim (language="comment", text=
-        "Battery / power from LowState")
-      uint8 battery_soc;
-
-      float power_v;
-
-      float power_a;
-
-      @verbatim (language="comment", text=
         "Diagnostics")
       boolean sport_received;
 

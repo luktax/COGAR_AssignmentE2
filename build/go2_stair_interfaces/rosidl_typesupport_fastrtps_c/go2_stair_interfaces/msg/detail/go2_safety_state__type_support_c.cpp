@@ -212,21 +212,6 @@ static bool _Go2SafetyState__cdr_serialize(
     cdr.serializeArray(array_ptr, size);
   }
 
-  // Field name: battery_soc
-  {
-    cdr << ros_message->battery_soc;
-  }
-
-  // Field name: power_v
-  {
-    cdr << ros_message->power_v;
-  }
-
-  // Field name: power_a
-  {
-    cdr << ros_message->power_a;
-  }
-
   // Field name: sport_received
   {
     cdr << (ros_message->sport_received ? true : false);
@@ -409,21 +394,6 @@ static bool _Go2SafetyState__cdr_deserialize(
     size_t size = 12;
     auto array_ptr = ros_message->joint_tau_est;
     cdr.deserializeArray(array_ptr, size);
-  }
-
-  // Field name: battery_soc
-  {
-    cdr >> ros_message->battery_soc;
-  }
-
-  // Field name: power_v
-  {
-    cdr >> ros_message->power_v;
-  }
-
-  // Field name: power_a
-  {
-    cdr >> ros_message->power_a;
   }
 
   // Field name: sport_received
@@ -634,24 +604,6 @@ size_t get_serialized_size_go2_stair_interfaces__msg__Go2SafetyState(
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name battery_soc
-  {
-    size_t item_size = sizeof(ros_message->battery_soc);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name power_v
-  {
-    size_t item_size = sizeof(ros_message->power_v);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name power_a
-  {
-    size_t item_size = sizeof(ros_message->power_a);
-    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
   // field.name sport_received
@@ -910,29 +862,6 @@ size_t max_serialized_size_go2_stair_interfaces__msg__Go2SafetyState(
   // member: joint_tau_est
   {
     size_t array_size = 12;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: battery_soc
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: power_v
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: power_a
-  {
-    size_t array_size = 1;
 
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +

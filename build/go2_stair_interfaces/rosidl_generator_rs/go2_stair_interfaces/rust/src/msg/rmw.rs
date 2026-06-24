@@ -134,19 +134,6 @@ pub struct Go2SafetyState {
     #[allow(missing_docs)]
     pub joint_tau_est: [f32; 12],
 
-    /// Battery / power from LowState
-    pub battery_soc: u8,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub power_v: f32,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub power_a: f32,
-
     /// Diagnostics
     pub sport_received: bool,
 

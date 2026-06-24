@@ -85,64 +85,16 @@ private:
   ::go2_stair_interfaces::msg::Go2SafetyState msg_;
 };
 
-class Init_Go2SafetyState_power_a
-{
-public:
-  explicit Init_Go2SafetyState_power_a(::go2_stair_interfaces::msg::Go2SafetyState & msg)
-  : msg_(msg)
-  {}
-  Init_Go2SafetyState_sport_received power_a(::go2_stair_interfaces::msg::Go2SafetyState::_power_a_type arg)
-  {
-    msg_.power_a = std::move(arg);
-    return Init_Go2SafetyState_sport_received(msg_);
-  }
-
-private:
-  ::go2_stair_interfaces::msg::Go2SafetyState msg_;
-};
-
-class Init_Go2SafetyState_power_v
-{
-public:
-  explicit Init_Go2SafetyState_power_v(::go2_stair_interfaces::msg::Go2SafetyState & msg)
-  : msg_(msg)
-  {}
-  Init_Go2SafetyState_power_a power_v(::go2_stair_interfaces::msg::Go2SafetyState::_power_v_type arg)
-  {
-    msg_.power_v = std::move(arg);
-    return Init_Go2SafetyState_power_a(msg_);
-  }
-
-private:
-  ::go2_stair_interfaces::msg::Go2SafetyState msg_;
-};
-
-class Init_Go2SafetyState_battery_soc
-{
-public:
-  explicit Init_Go2SafetyState_battery_soc(::go2_stair_interfaces::msg::Go2SafetyState & msg)
-  : msg_(msg)
-  {}
-  Init_Go2SafetyState_power_v battery_soc(::go2_stair_interfaces::msg::Go2SafetyState::_battery_soc_type arg)
-  {
-    msg_.battery_soc = std::move(arg);
-    return Init_Go2SafetyState_power_v(msg_);
-  }
-
-private:
-  ::go2_stair_interfaces::msg::Go2SafetyState msg_;
-};
-
 class Init_Go2SafetyState_joint_tau_est
 {
 public:
   explicit Init_Go2SafetyState_joint_tau_est(::go2_stair_interfaces::msg::Go2SafetyState & msg)
   : msg_(msg)
   {}
-  Init_Go2SafetyState_battery_soc joint_tau_est(::go2_stair_interfaces::msg::Go2SafetyState::_joint_tau_est_type arg)
+  Init_Go2SafetyState_sport_received joint_tau_est(::go2_stair_interfaces::msg::Go2SafetyState::_joint_tau_est_type arg)
   {
     msg_.joint_tau_est = std::move(arg);
-    return Init_Go2SafetyState_battery_soc(msg_);
+    return Init_Go2SafetyState_sport_received(msg_);
   }
 
 private:

@@ -281,27 +281,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: battery_soc
-  {
-    out << "battery_soc: ";
-    rosidl_generator_traits::value_to_yaml(msg.battery_soc, out);
-    out << ", ";
-  }
-
-  // member: power_v
-  {
-    out << "power_v: ";
-    rosidl_generator_traits::value_to_yaml(msg.power_v, out);
-    out << ", ";
-  }
-
-  // member: power_a
-  {
-    out << "power_a: ";
-    rosidl_generator_traits::value_to_yaml(msg.power_a, out);
-    out << ", ";
-  }
-
   // member: sport_received
   {
     out << "sport_received: ";
@@ -652,36 +631,6 @@ inline void to_block_style_yaml(
         out << "\n";
       }
     }
-  }
-
-  // member: battery_soc
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "battery_soc: ";
-    rosidl_generator_traits::value_to_yaml(msg.battery_soc, out);
-    out << "\n";
-  }
-
-  // member: power_v
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "power_v: ";
-    rosidl_generator_traits::value_to_yaml(msg.power_v, out);
-    out << "\n";
-  }
-
-  // member: power_a
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "power_a: ";
-    rosidl_generator_traits::value_to_yaml(msg.power_a, out);
-    out << "\n";
   }
 
   // member: sport_received

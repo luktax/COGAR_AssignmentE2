@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/PKG-INFO
+../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/SOURCES.txt
+../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/dependency_links.txt
+../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/requires.txt
+../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/top_level.txt
+../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/zip-safe
+go2_simulation_mujoco/__init__.py
+resource/go2_simulation_mujoco
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

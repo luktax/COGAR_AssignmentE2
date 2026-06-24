@@ -1,0 +1,138 @@
+[0.068s] Invoking command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lukat/COGAR_ws/build/go2_stair_interfaces -- -j8 -l8
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_generator_c[0m
+[0.156s] [  3%] Built target go2_stair_interfaces__rs
+[0.157s] [  6%] Built target go2_stair_interfaces__cpp
+[0.164s] [ 15%] Built target go2_stair_interfaces__rosidl_generator_c
+[0.169s] [ 15%] Built target ament_cmake_python_symlink_go2_stair_interfaces
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_cpp[0m
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_c[0m
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.187s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_introspection_c[0m
+[0.201s] [ 25%] Built target go2_stair_interfaces__rosidl_typesupport_cpp
+[0.201s] [ 34%] Built target go2_stair_interfaces__rosidl_typesupport_introspection_cpp
+[0.205s] [ 43%] Built target go2_stair_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.208s] [ 59%] Built target go2_stair_interfaces__rosidl_typesupport_c
+[0.209s] [ 62%] Built target go2_stair_interfaces__rosidl_typesupport_fastrtps_c
+[0.214s] [ 71%] Built target go2_stair_interfaces__rosidl_typesupport_introspection_c
+[0.241s] [ 71%] Built target go2_stair_interfaces
+[0.266s] [ 75%] Built target go2_stair_interfaces__py
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_generator_py[0m
+[0.294s] [ 81%] Built target go2_stair_interfaces__rosidl_generator_py
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.311s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_c__pyext[0m
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target go2_stair_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.329s] [ 87%] Built target go2_stair_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.329s] [ 93%] Built target go2_stair_interfaces__rosidl_typesupport_c__pyext
+[0.334s] [100%] Built target go2_stair_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.497s] running egg_info
+[0.520s] writing go2_stair_interfaces.egg-info/PKG-INFO
+[0.522s] writing dependency_links to go2_stair_interfaces.egg-info/dependency_links.txt
+[0.523s] writing top-level names to go2_stair_interfaces.egg-info/top_level.txt
+[0.587s] reading manifest file 'go2_stair_interfaces.egg-info/SOURCES.txt'
+[0.590s] writing manifest file 'go2_stair_interfaces.egg-info/SOURCES.txt'
+[0.664s] [100%] Built target ament_cmake_python_build_go2_stair_interfaces_egg
+[0.679s] Invoked command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lukat/COGAR_ws/build/go2_stair_interfaces -- -j8 -l8
+[0.692s] Invoking command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lukat/COGAR_ws/build/go2_stair_interfaces
+[0.701s] -- Install configuration: ""
+[0.702s] -- Execute custom install script
+[0.702s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/ament_index/resource_index/rosidl_interfaces/go2_stair_interfaces
+[0.703s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__functions.h
+[0.704s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__struct.h
+[0.704s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.h
+[0.705s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/go2_safety_state.h
+[0.705s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.705s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/library_path.sh
+[0.705s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/library_path.dsv
+[0.706s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_fastrtps_c.h
+[0.706s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.707s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__builder.hpp
+[0.708s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__struct.hpp
+[0.708s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__traits.hpp
+[0.709s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.hpp
+[0.709s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/go2_safety_state.hpp
+[0.709s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.710s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.711s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.712s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h
+[0.712s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.713s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/include/go2_stair_interfaces/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_cpp.hpp
+[0.713s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/pythonpath.sh
+[0.714s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/pythonpath.dsv
+[0.714s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.715s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.715s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.715s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.715s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/__init__.py
+[0.716s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_c.c
+[0.716s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.717s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.717s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/go2_stair_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.717s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/go2_stair_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.717s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/go2_stair_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.718s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/libgo2_stair_interfaces__rosidl_generator_py.so
+[0.718s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/msg/__init__.py
+[0.718s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/msg/_go2_safety_state.py
+[0.718s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/msg/_go2_safety_state_s.c
+[0.719s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/go2_stair_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.719s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/go2_stair_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.720s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/go2_stair_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.720s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/ament_index/resource_index/rust_packages/go2_stair_interfaces
+[0.721s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/rust/Cargo.toml
+[0.722s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/rust/build.rs
+[0.723s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/rust/src/lib.rs
+[0.723s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/rust/src/msg.rs
+[0.724s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/rust/src/msg/rmw.rs
+[0.724s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/msg/Go2SafetyState.idl
+[0.725s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/msg/Go2SafetyState.msg
+[0.725s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/ament_index/resource_index/package_run_dependencies/go2_stair_interfaces
+[0.725s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/ament_index/resource_index/parent_prefix_path/go2_stair_interfaces
+[0.725s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/ament_prefix_path.sh
+[0.725s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/ament_prefix_path.dsv
+[0.726s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/path.sh
+[0.726s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/environment/path.dsv
+[0.726s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/local_setup.bash
+[0.726s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/local_setup.sh
+[0.727s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/local_setup.zsh
+[0.727s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/local_setup.dsv
+[0.727s] -- Symlinking: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/package.dsv
+[0.741s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/ament_index/resource_index/packages/go2_stair_interfaces
+[0.741s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.741s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.741s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.742s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.742s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.742s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.742s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.743s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfacesConfig.cmake
+[0.743s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfacesConfig-version.cmake
+[0.743s] -- Up-to-date symlink: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/package.xml
+[0.743s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_generator_c.so
+[0.744s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.744s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.744s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so
+[0.745s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_typesupport_c.so
+[0.745s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.745s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_typesupport_cpp.so
+[0.793s] Listing '/home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces'...
+[0.793s] Listing '/home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages/go2_stair_interfaces/msg'...
+[0.813s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/lib/libgo2_stair_interfaces__rosidl_generator_py.so
+[0.813s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_generator_cExport.cmake
+[0.814s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.815s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.815s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.816s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_generator_cppExport.cmake
+[0.816s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.816s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.817s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.817s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.817s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_cExport.cmake
+[0.817s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.818s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.818s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.818s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_cppExport.cmake
+[0.818s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/go2_stair_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.818s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_generator_pyExport.cmake
+[0.819s] -- Up-to-date: /home/lukat/COGAR_ws/install/go2_stair_interfaces/share/go2_stair_interfaces/cmake/export_go2_stair_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.822s] Invoked command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lukat/COGAR_ws/build/go2_stair_interfaces

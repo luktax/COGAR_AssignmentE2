@@ -40,11 +40,6 @@ float32[12] joint_position
 float32[12] joint_velocity
 float32[12] joint_tau_est
 
-# Battery / power from LowState
-uint8 battery_soc
-float32 power_v
-float32 power_a
-
 # Diagnostics
 bool sport_received
 bool lowstate_received

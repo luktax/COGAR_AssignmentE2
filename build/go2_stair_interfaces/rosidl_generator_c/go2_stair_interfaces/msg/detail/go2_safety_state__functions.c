@@ -50,9 +50,6 @@ go2_stair_interfaces__msg__Go2SafetyState__init(go2_stair_interfaces__msg__Go2Sa
   // joint_position
   // joint_velocity
   // joint_tau_est
-  // battery_soc
-  // power_v
-  // power_a
   // sport_received
   // lowstate_received
   // sport_age_s
@@ -92,9 +89,6 @@ go2_stair_interfaces__msg__Go2SafetyState__fini(go2_stair_interfaces__msg__Go2Sa
   // joint_position
   // joint_velocity
   // joint_tau_est
-  // battery_soc
-  // power_v
-  // power_a
   // sport_received
   // lowstate_received
   // sport_age_s
@@ -223,18 +217,6 @@ go2_stair_interfaces__msg__Go2SafetyState__are_equal(const go2_stair_interfaces_
       return false;
     }
   }
-  // battery_soc
-  if (lhs->battery_soc != rhs->battery_soc) {
-    return false;
-  }
-  // power_v
-  if (lhs->power_v != rhs->power_v) {
-    return false;
-  }
-  // power_a
-  if (lhs->power_a != rhs->power_a) {
-    return false;
-  }
   // sport_received
   if (lhs->sport_received != rhs->sport_received) {
     return false;
@@ -330,12 +312,6 @@ go2_stair_interfaces__msg__Go2SafetyState__copy(
   for (size_t i = 0; i < 12; ++i) {
     output->joint_tau_est[i] = input->joint_tau_est[i];
   }
-  // battery_soc
-  output->battery_soc = input->battery_soc;
-  // power_v
-  output->power_v = input->power_v;
-  // power_a
-  output->power_a = input->power_a;
   // sport_received
   output->sport_received = input->sport_received;
   // lowstate_received

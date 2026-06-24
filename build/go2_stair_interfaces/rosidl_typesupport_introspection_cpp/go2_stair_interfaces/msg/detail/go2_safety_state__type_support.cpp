@@ -303,7 +303,7 @@ void assign_function__Go2SafetyState__joint_tau_est(
   item = value;
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Go2SafetyState_message_member_array[32] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Go2SafetyState_message_member_array[29] = {
   {
     "header",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -730,57 +730,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Go2SafetyStat
     nullptr  // resize(index) function pointer
   },
   {
-    "battery_soc",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(go2_stair_interfaces::msg::Go2SafetyState, battery_soc),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "power_v",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(go2_stair_interfaces::msg::Go2SafetyState, power_v),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "power_a",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(go2_stair_interfaces::msg::Go2SafetyState, power_a),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
     "sport_received",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
@@ -853,7 +802,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Go2SafetyStat
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Go2SafetyState_message_members = {
   "go2_stair_interfaces::msg",  // message namespace
   "Go2SafetyState",  // message name
-  32,  // number of fields
+  29,  // number of fields
   sizeof(go2_stair_interfaces::msg::Go2SafetyState),
   Go2SafetyState_message_member_array,  // message members
   Go2SafetyState_init_function,  // function to initialize message memory (memory has to be allocated)

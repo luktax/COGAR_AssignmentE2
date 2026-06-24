@@ -393,33 +393,6 @@ bool go2_stair_interfaces__msg__go2_safety_state__convert_from_py(PyObject * _py
     }
     Py_DECREF(field);
   }
-  {  // battery_soc
-    PyObject * field = PyObject_GetAttrString(_pymsg, "battery_soc");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->battery_soc = (uint8_t)PyLong_AsUnsignedLong(field);
-    Py_DECREF(field);
-  }
-  {  // power_v
-    PyObject * field = PyObject_GetAttrString(_pymsg, "power_v");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->power_v = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // power_a
-    PyObject * field = PyObject_GetAttrString(_pymsg, "power_a");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->power_a = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
   {  // sport_received
     PyObject * field = PyObject_GetAttrString(_pymsg, "sport_received");
     if (!field) {
@@ -808,39 +781,6 @@ PyObject * go2_stair_interfaces__msg__go2_safety_state__convert_to_py(void * raw
     float * src = &(ros_message->joint_tau_est[0]);
     memcpy(dst, src, 12 * sizeof(float));
     Py_DECREF(field);
-  }
-  {  // battery_soc
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->battery_soc);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "battery_soc", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // power_v
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->power_v);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "power_v", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // power_a
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->power_a);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "power_a", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
   }
   {  // sport_received
     PyObject * field = NULL;

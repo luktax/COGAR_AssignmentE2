@@ -68,9 +68,6 @@ struct Go2SafetyState_
       std::fill<typename std::array<float, 12>::iterator, float>(this->joint_position.begin(), this->joint_position.end(), 0.0f);
       std::fill<typename std::array<float, 12>::iterator, float>(this->joint_velocity.begin(), this->joint_velocity.end(), 0.0f);
       std::fill<typename std::array<float, 12>::iterator, float>(this->joint_tau_est.begin(), this->joint_tau_est.end(), 0.0f);
-      this->battery_soc = 0;
-      this->power_v = 0.0f;
-      this->power_a = 0.0f;
       this->sport_received = false;
       this->lowstate_received = false;
       this->sport_age_s = 0.0f;
@@ -115,9 +112,6 @@ struct Go2SafetyState_
       std::fill<typename std::array<float, 12>::iterator, float>(this->joint_position.begin(), this->joint_position.end(), 0.0f);
       std::fill<typename std::array<float, 12>::iterator, float>(this->joint_velocity.begin(), this->joint_velocity.end(), 0.0f);
       std::fill<typename std::array<float, 12>::iterator, float>(this->joint_tau_est.begin(), this->joint_tau_est.end(), 0.0f);
-      this->battery_soc = 0;
-      this->power_v = 0.0f;
-      this->power_a = 0.0f;
       this->sport_received = false;
       this->lowstate_received = false;
       this->sport_age_s = 0.0f;
@@ -201,15 +195,6 @@ struct Go2SafetyState_
   using _joint_tau_est_type =
     std::array<float, 12>;
   _joint_tau_est_type joint_tau_est;
-  using _battery_soc_type =
-    uint8_t;
-  _battery_soc_type battery_soc;
-  using _power_v_type =
-    float;
-  _power_v_type power_v;
-  using _power_a_type =
-    float;
-  _power_a_type power_a;
   using _sport_received_type =
     bool;
   _sport_received_type sport_received;
@@ -374,24 +359,6 @@ struct Go2SafetyState_
     this->joint_tau_est = _arg;
     return *this;
   }
-  Type & set__battery_soc(
-    const uint8_t & _arg)
-  {
-    this->battery_soc = _arg;
-    return *this;
-  }
-  Type & set__power_v(
-    const float & _arg)
-  {
-    this->power_v = _arg;
-    return *this;
-  }
-  Type & set__power_a(
-    const float & _arg)
-  {
-    this->power_a = _arg;
-    return *this;
-  }
   Type & set__sport_received(
     const bool & _arg)
   {
@@ -532,15 +499,6 @@ struct Go2SafetyState_
       return false;
     }
     if (this->joint_tau_est != other.joint_tau_est) {
-      return false;
-    }
-    if (this->battery_soc != other.battery_soc) {
-      return false;
-    }
-    if (this->power_v != other.power_v) {
-      return false;
-    }
-    if (this->power_a != other.power_a) {
       return false;
     }
     if (this->sport_received != other.sport_received) {

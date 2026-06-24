@@ -43,7 +43,7 @@ class Go2StateBridge(Node):
             LowState,
             self.lowstate_topic,
             self.lowstate_callback,
-            qos,-
+            qos,
         )
 
         self.pub = self.create_publisher(

@@ -352,7 +352,7 @@ void go2_stair_interfaces__msg__Go2SafetyState__rosidl_typesupport_introspection
   *item = *value;
 }
 
-static rosidl_typesupport_introspection_c__MessageMember go2_stair_interfaces__msg__Go2SafetyState__rosidl_typesupport_introspection_c__Go2SafetyState_message_member_array[32] = {
+static rosidl_typesupport_introspection_c__MessageMember go2_stair_interfaces__msg__Go2SafetyState__rosidl_typesupport_introspection_c__Go2SafetyState_message_member_array[29] = {
   {
     "header",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -779,57 +779,6 @@ static rosidl_typesupport_introspection_c__MessageMember go2_stair_interfaces__m
     NULL  // resize(index) function pointer
   },
   {
-    "battery_soc",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(go2_stair_interfaces__msg__Go2SafetyState, battery_soc),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "power_v",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(go2_stair_interfaces__msg__Go2SafetyState, power_v),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "power_a",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(go2_stair_interfaces__msg__Go2SafetyState, power_a),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
     "sport_received",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
@@ -902,7 +851,7 @@ static rosidl_typesupport_introspection_c__MessageMember go2_stair_interfaces__m
 static const rosidl_typesupport_introspection_c__MessageMembers go2_stair_interfaces__msg__Go2SafetyState__rosidl_typesupport_introspection_c__Go2SafetyState_message_members = {
   "go2_stair_interfaces__msg",  // message namespace
   "Go2SafetyState",  // message name
-  32,  // number of fields
+  29,  // number of fields
   sizeof(go2_stair_interfaces__msg__Go2SafetyState),
   go2_stair_interfaces__msg__Go2SafetyState__rosidl_typesupport_introspection_c__Go2SafetyState_message_member_array,  // message members
   go2_stair_interfaces__msg__Go2SafetyState__rosidl_typesupport_introspection_c__Go2SafetyState_init_function,  // function to initialize message memory (memory has to be allocated)

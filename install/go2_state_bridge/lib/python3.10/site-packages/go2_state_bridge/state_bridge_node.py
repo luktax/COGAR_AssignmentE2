@@ -140,10 +140,6 @@ class Go2StateBridge(Node):
             out.joint_velocity = joint_dq
             out.joint_tau_est = joint_tau
 
-            out.battery_soc = int(low.bms_state.soc)
-            out.power_v = float(low.power_v)
-            out.power_a = float(low.power_a)
-
         self.pub.publish(out)
 
 def main(args=None):

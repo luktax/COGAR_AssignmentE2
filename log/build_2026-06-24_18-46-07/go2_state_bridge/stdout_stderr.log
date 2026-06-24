@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/go2_state_bridge/go2_state_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_state_bridge/go2_state_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/go2_state_bridge/go2_state_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/go2_state_bridge/go2_state_bridge.egg-info/requires.txt
+writing top-level names to ../../build/go2_state_bridge/go2_state_bridge.egg-info/top_level.txt
+reading manifest file '../../build/go2_state_bridge/go2_state_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_state_bridge/go2_state_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+copying go2_state_bridge/state_bridge_node.py -> /home/lukat/COGAR_ws/build/go2_state_bridge/build/lib/go2_state_bridge
+copying go2_state_bridge/__init__.py -> /home/lukat/COGAR_ws/build/go2_state_bridge/build/lib/go2_state_bridge
+running install
+running install_lib
+copying /home/lukat/COGAR_ws/build/go2_state_bridge/build/lib/go2_state_bridge/state_bridge_node.py -> /home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge
+byte-compiling /home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge/state_bridge_node.py to state_bridge_node.cpython-310.pyc
+running install_data
+copying resource/go2_state_bridge -> /home/lukat/COGAR_ws/install/go2_state_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/lukat/COGAR_ws/install/go2_state_bridge/share/go2_state_bridge
+running install_egg_info
+removing '/home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/go2_state_bridge/go2_state_bridge.egg-info to /home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing state_bridge_node script to /home/lukat/COGAR_ws/install/go2_state_bridge/lib/go2_state_bridge
+writing list of installed files to '/home/lukat/COGAR_ws/build/go2_state_bridge/install.log'

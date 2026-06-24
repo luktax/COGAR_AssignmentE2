@@ -57,10 +57,6 @@ typedef struct go2_stair_interfaces__msg__Go2SafetyState
   float joint_position[12];
   float joint_velocity[12];
   float joint_tau_est[12];
-  /// Battery / power from LowState
-  uint8_t battery_soc;
-  float power_v;
-  float power_a;
   /// Diagnostics
   bool sport_received;
   bool lowstate_received;

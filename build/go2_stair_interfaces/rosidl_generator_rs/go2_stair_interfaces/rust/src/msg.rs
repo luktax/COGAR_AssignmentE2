@@ -120,19 +120,6 @@ pub struct Go2SafetyState {
     #[allow(missing_docs)]
     pub joint_tau_est: [f32; 12],
 
-    /// Battery / power from LowState
-    pub battery_soc: u8,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub power_v: f32,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub power_a: f32,
-
     /// Diagnostics
     pub sport_received: bool,
 
@@ -192,9 +179,6 @@ impl rosidl_runtime_rs::Message for Go2SafetyState {
         joint_position: msg.joint_position,
         joint_velocity: msg.joint_velocity,
         joint_tau_est: msg.joint_tau_est,
-        battery_soc: msg.battery_soc,
-        power_v: msg.power_v,
-        power_a: msg.power_a,
         sport_received: msg.sport_received,
         lowstate_received: msg.lowstate_received,
         sport_age_s: msg.sport_age_s,
@@ -226,9 +210,6 @@ impl rosidl_runtime_rs::Message for Go2SafetyState {
         joint_position: msg.joint_position,
         joint_velocity: msg.joint_velocity,
         joint_tau_est: msg.joint_tau_est,
-      battery_soc: msg.battery_soc,
-      power_v: msg.power_v,
-      power_a: msg.power_a,
       sport_received: msg.sport_received,
       lowstate_received: msg.lowstate_received,
       sport_age_s: msg.sport_age_s,
@@ -264,9 +245,6 @@ impl rosidl_runtime_rs::Message for Go2SafetyState {
       joint_position: msg.joint_position,
       joint_velocity: msg.joint_velocity,
       joint_tau_est: msg.joint_tau_est,
-      battery_soc: msg.battery_soc,
-      power_v: msg.power_v,
-      power_a: msg.power_a,
       sport_received: msg.sport_received,
       lowstate_received: msg.lowstate_received,
       sport_age_s: msg.sport_age_s,

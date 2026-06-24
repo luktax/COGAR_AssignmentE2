@@ -94,9 +94,6 @@ class Go2SafetyState(metaclass=Metaclass_Go2SafetyState):
         '_joint_position',
         '_joint_velocity',
         '_joint_tau_est',
-        '_battery_soc',
-        '_power_v',
-        '_power_a',
         '_sport_received',
         '_lowstate_received',
         '_sport_age_s',
@@ -129,9 +126,6 @@ class Go2SafetyState(metaclass=Metaclass_Go2SafetyState):
         'joint_position': 'float[12]',
         'joint_velocity': 'float[12]',
         'joint_tau_est': 'float[12]',
-        'battery_soc': 'uint8',
-        'power_v': 'float',
-        'power_a': 'float',
         'sport_received': 'boolean',
         'lowstate_received': 'boolean',
         'sport_age_s': 'float',
@@ -164,9 +158,6 @@ class Go2SafetyState(metaclass=Metaclass_Go2SafetyState):
         rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('float'), 12),  # noqa: E501
         rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('float'), 12),  # noqa: E501
         rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('float'), 12),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
@@ -224,9 +215,6 @@ class Go2SafetyState(metaclass=Metaclass_Go2SafetyState):
             self.joint_tau_est = numpy.zeros(12, dtype=numpy.float32)
         else:
             self.joint_tau_est = kwargs.get('joint_tau_est')
-        self.battery_soc = kwargs.get('battery_soc', int())
-        self.power_v = kwargs.get('power_v', float())
-        self.power_a = kwargs.get('power_a', float())
         self.sport_received = kwargs.get('sport_received', bool())
         self.lowstate_received = kwargs.get('lowstate_received', bool())
         self.sport_age_s = kwargs.get('sport_age_s', float())
@@ -310,12 +298,6 @@ class Go2SafetyState(metaclass=Metaclass_Go2SafetyState):
         if any(self.joint_velocity != other.joint_velocity):
             return False
         if any(self.joint_tau_est != other.joint_tau_est):
-            return False
-        if self.battery_soc != other.battery_soc:
-            return False
-        if self.power_v != other.power_v:
-            return False
-        if self.power_a != other.power_a:
             return False
         if self.sport_received != other.sport_received:
             return False
@@ -810,51 +792,6 @@ class Go2SafetyState(metaclass=Metaclass_Go2SafetyState):
                  all(not (val < -3.402823466e+38 or val > 3.402823466e+38) or math.isinf(val) for val in value)), \
                 "The 'joint_tau_est' field must be a set or sequence with length 12 and each value of type 'float' and each float in [-340282346600000016151267322115014000640.000000, 340282346600000016151267322115014000640.000000]"
         self._joint_tau_est = numpy.array(value, dtype=numpy.float32)
-
-    @builtins.property
-    def battery_soc(self):
-        """Message field 'battery_soc'."""
-        return self._battery_soc
-
-    @battery_soc.setter
-    def battery_soc(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'battery_soc' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'battery_soc' field must be an unsigned integer in [0, 255]"
-        self._battery_soc = value
-
-    @builtins.property
-    def power_v(self):
-        """Message field 'power_v'."""
-        return self._power_v
-
-    @power_v.setter
-    def power_v(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'power_v' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'power_v' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._power_v = value
-
-    @builtins.property
-    def power_a(self):
-        """Message field 'power_a'."""
-        return self._power_a
-
-    @power_a.setter
-    def power_a(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'power_a' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'power_a' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._power_a = value
 
     @builtins.property
     def sport_received(self):

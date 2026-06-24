@@ -1,0 +1,6 @@
+source;share/go2_simulation_mujoco/hook/pythonpath.ps1
+source;share/go2_simulation_mujoco/hook/pythonpath.dsv
+source;share/go2_simulation_mujoco/hook/pythonpath.sh
+source;share/go2_simulation_mujoco/hook/ament_prefix_path.ps1
+source;share/go2_simulation_mujoco/hook/ament_prefix_path.dsv
+source;share/go2_simulation_mujoco/hook/ament_prefix_path.sh
