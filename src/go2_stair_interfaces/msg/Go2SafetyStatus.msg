@@ -9,7 +9,7 @@ uint8 status
 string reason
 
 float32 roll_error
-float32 pitch_error
+float32 pitch_delta
 float32 roll_rate
 float32 pitch_rate
 
@@ -23,9 +23,6 @@ bool rate_warning
 bool rate_stop
 bool contact_warning
 bool contact_stop
-bool battery_warning
-bool battery_stop
 
 float32 sport_age_s
 float32 lowstate_age_s
-uint8 battery_soc

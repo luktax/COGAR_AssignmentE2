@@ -43,7 +43,7 @@ class Go2StateBridge(Node):
             LowState,
             self.lowstate_topic,
             self.lowstate_callback,
-            qos,
+            qos,-
         )
 
         self.pub = self.create_publisher(
@@ -139,10 +139,6 @@ class Go2StateBridge(Node):
             out.joint_position = joint_q
             out.joint_velocity = joint_dq
             out.joint_tau_est = joint_tau
-
-            out.battery_soc = int(low.bms_state.soc)
-            out.power_v = float(low.power_v)
-            out.power_a = float(low.power_a)
 
         self.pub.publish(out)
 
