@@ -4,7 +4,12 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__struct.hpp"
   "rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__traits.hpp"
   "rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.hpp"
+  "rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__builder.hpp"
+  "rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__struct.hpp"
+  "rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__traits.hpp"
+  "rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.hpp"
   "rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
+  "rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_status.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

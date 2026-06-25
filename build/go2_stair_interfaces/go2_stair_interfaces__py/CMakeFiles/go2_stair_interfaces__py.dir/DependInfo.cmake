@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/msg/__init__.py" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state.py" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state_s.c" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status.py" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status_s.c" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

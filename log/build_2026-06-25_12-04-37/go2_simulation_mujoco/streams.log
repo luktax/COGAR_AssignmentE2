@@ -1,0 +1,22 @@
+[2.237s] Invoking command in '/home/lukat/COGAR_ws/src/go2_simulation_mujoco': PYTHONPATH=/home/lukat/COGAR_ws/build/go2_simulation_mujoco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lukat/COGAR_ws/install/go2_simulation_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_simulation_mujoco build --build-base /home/lukat/COGAR_ws/build/go2_simulation_mujoco/build install --record /home/lukat/COGAR_ws/build/go2_simulation_mujoco/install.log --single-version-externally-managed install_data
+[2.632s] running egg_info
+[2.656s] writing ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/PKG-INFO
+[2.657s] writing dependency_links to ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/dependency_links.txt
+[2.658s] writing requirements to ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/requires.txt
+[2.659s] writing top-level names to ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/top_level.txt
+[2.709s] reading manifest file '../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/SOURCES.txt'
+[2.711s] writing manifest file '../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/SOURCES.txt'
+[2.712s] running build
+[2.713s] running build_py
+[2.713s] copying go2_simulation_mujoco/__init__.py -> /home/lukat/COGAR_ws/build/go2_simulation_mujoco/build/lib/go2_simulation_mujoco
+[2.714s] running install
+[2.723s] running install_lib
+[2.745s] running install_data
+[2.746s] copying resource/go2_simulation_mujoco -> /home/lukat/COGAR_ws/install/go2_simulation_mujoco/share/ament_index/resource_index/packages
+[2.746s] copying package.xml -> /home/lukat/COGAR_ws/install/go2_simulation_mujoco/share/go2_simulation_mujoco
+[2.747s] running install_egg_info
+[2.779s] removing '/home/lukat/COGAR_ws/install/go2_simulation_mujoco/lib/python3.10/site-packages/go2_simulation_mujoco-0.0.0-py3.10.egg-info' (and everything under it)
+[2.780s] Copying ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info to /home/lukat/COGAR_ws/install/go2_simulation_mujoco/lib/python3.10/site-packages/go2_simulation_mujoco-0.0.0-py3.10.egg-info
+[2.782s] running install_scripts
+[3.002s] writing list of installed files to '/home/lukat/COGAR_ws/build/go2_simulation_mujoco/install.log'
+[3.133s] Invoked command in '/home/lukat/COGAR_ws/src/go2_simulation_mujoco' returned '0': PYTHONPATH=/home/lukat/COGAR_ws/build/go2_simulation_mujoco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lukat/COGAR_ws/install/go2_simulation_mujoco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_simulation_mujoco build --build-base /home/lukat/COGAR_ws/build/go2_simulation_mujoco/build install --record /home/lukat/COGAR_ws/build/go2_simulation_mujoco/install.log --single-version-externally-managed install_data

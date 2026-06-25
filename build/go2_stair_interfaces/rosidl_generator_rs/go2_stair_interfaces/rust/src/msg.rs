@@ -254,3 +254,206 @@ impl rosidl_runtime_rs::Message for Go2SafetyState {
 }
 
 
+// Corresponds to go2_stair_interfaces__msg__Go2SafetyStatus
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct Go2SafetyStatus {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub header: std_msgs::msg::Header,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub status: u8,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub reason: std::string::String,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub roll_error: f32,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub pitch_error: f32,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub roll_rate: f32,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub pitch_rate: f32,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub contact_count: u8,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub foot_contact: [bool; 4],
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub state_timeout: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub attitude_warning: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub attitude_stop: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub rate_warning: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub rate_stop: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub contact_warning: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub contact_stop: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub sport_age_s: f32,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub lowstate_age_s: f32,
+
+}
+
+impl Go2SafetyStatus {
+
+    // This constant is not documented.
+    #[allow(missing_docs)]
+    pub const SAFE: u8 = 0;
+
+
+    // This constant is not documented.
+    #[allow(missing_docs)]
+    pub const WARNING: u8 = 1;
+
+
+    // This constant is not documented.
+    #[allow(missing_docs)]
+    pub const STOP_REQUIRED: u8 = 2;
+
+
+    // This constant is not documented.
+    #[allow(missing_docs)]
+    pub const RECOVERY_REQUIRED: u8 = 3;
+
+}
+
+
+impl Default for Go2SafetyStatus {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::msg::rmw::Go2SafetyStatus::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for Go2SafetyStatus {
+  type RmwMsg = super::msg::rmw::Go2SafetyStatus;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        header: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Owned(msg.header)).into_owned(),
+        status: msg.status,
+        reason: msg.reason.as_str().into(),
+        roll_error: msg.roll_error,
+        pitch_error: msg.pitch_error,
+        roll_rate: msg.roll_rate,
+        pitch_rate: msg.pitch_rate,
+        contact_count: msg.contact_count,
+        foot_contact: msg.foot_contact,
+        state_timeout: msg.state_timeout,
+        attitude_warning: msg.attitude_warning,
+        attitude_stop: msg.attitude_stop,
+        rate_warning: msg.rate_warning,
+        rate_stop: msg.rate_stop,
+        contact_warning: msg.contact_warning,
+        contact_stop: msg.contact_stop,
+        sport_age_s: msg.sport_age_s,
+        lowstate_age_s: msg.lowstate_age_s,
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        header: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Borrowed(&msg.header)).into_owned(),
+      status: msg.status,
+        reason: msg.reason.as_str().into(),
+      roll_error: msg.roll_error,
+      pitch_error: msg.pitch_error,
+      roll_rate: msg.roll_rate,
+      pitch_rate: msg.pitch_rate,
+      contact_count: msg.contact_count,
+        foot_contact: msg.foot_contact,
+      state_timeout: msg.state_timeout,
+      attitude_warning: msg.attitude_warning,
+      attitude_stop: msg.attitude_stop,
+      rate_warning: msg.rate_warning,
+      rate_stop: msg.rate_stop,
+      contact_warning: msg.contact_warning,
+      contact_stop: msg.contact_stop,
+      sport_age_s: msg.sport_age_s,
+      lowstate_age_s: msg.lowstate_age_s,
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      header: std_msgs::msg::Header::from_rmw_message(msg.header),
+      status: msg.status,
+      reason: msg.reason.to_string(),
+      roll_error: msg.roll_error,
+      pitch_error: msg.pitch_error,
+      roll_rate: msg.roll_rate,
+      pitch_rate: msg.pitch_rate,
+      contact_count: msg.contact_count,
+      foot_contact: msg.foot_contact,
+      state_timeout: msg.state_timeout,
+      attitude_warning: msg.attitude_warning,
+      attitude_stop: msg.attitude_stop,
+      rate_warning: msg.rate_warning,
+      rate_stop: msg.rate_stop,
+      contact_warning: msg.contact_warning,
+      contact_stop: msg.contact_stop,
+      sport_age_s: msg.sport_age_s,
+      lowstate_age_s: msg.lowstate_age_s,
+    }
+  }
+}
+
+

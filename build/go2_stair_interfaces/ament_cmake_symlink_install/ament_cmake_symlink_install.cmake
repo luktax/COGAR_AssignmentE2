@@ -372,8 +372,14 @@ ament_cmake_symlink_install_directory("/home/lukat/COGAR_ws/src/go2_stair_interf
 # install(FILES "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyState.idl" "DESTINATION" "share/go2_stair_interfaces/msg")
 ament_cmake_symlink_install_files("/home/lukat/COGAR_ws/src/go2_stair_interfaces" FILES "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyState.idl" "DESTINATION" "share/go2_stair_interfaces/msg")
 
+# install(FILES "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyStatus.idl" "DESTINATION" "share/go2_stair_interfaces/msg")
+ament_cmake_symlink_install_files("/home/lukat/COGAR_ws/src/go2_stair_interfaces" FILES "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyStatus.idl" "DESTINATION" "share/go2_stair_interfaces/msg")
+
 # install(FILES "/home/lukat/COGAR_ws/src/go2_stair_interfaces/msg/Go2SafetyState.msg" "DESTINATION" "share/go2_stair_interfaces/msg")
 ament_cmake_symlink_install_files("/home/lukat/COGAR_ws/src/go2_stair_interfaces" FILES "/home/lukat/COGAR_ws/src/go2_stair_interfaces/msg/Go2SafetyState.msg" "DESTINATION" "share/go2_stair_interfaces/msg")
+
+# install(FILES "/home/lukat/COGAR_ws/src/go2_stair_interfaces/msg/Go2SafetyStatus.msg" "DESTINATION" "share/go2_stair_interfaces/msg")
+ament_cmake_symlink_install_files("/home/lukat/COGAR_ws/src/go2_stair_interfaces" FILES "/home/lukat/COGAR_ws/src/go2_stair_interfaces/msg/Go2SafetyStatus.msg" "DESTINATION" "share/go2_stair_interfaces/msg")
 
 # install(FILES "/home/lukat/COGAR_ws/build/go2_stair_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/go2_stair_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/lukat/COGAR_ws/src/go2_stair_interfaces" FILES "/home/lukat/COGAR_ws/build/go2_stair_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/go2_stair_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

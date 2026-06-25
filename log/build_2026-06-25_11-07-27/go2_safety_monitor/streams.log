@@ -1,0 +1,25 @@
+[3.796s] Invoking command in '/home/lukat/COGAR_ws/src/go2_safety_monitor': AMENT_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lukat/COGAR_ws/build/go2_safety_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lukat/COGAR_ws/install/go2_safety_monitor/lib/python3.10/site-packages:/home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_safety_monitor build --build-base /home/lukat/COGAR_ws/build/go2_safety_monitor/build install --record /home/lukat/COGAR_ws/build/go2_safety_monitor/install.log --single-version-externally-managed install_data
+[5.365s] running egg_info
+[5.366s] writing ../../build/go2_safety_monitor/go2_safety_monitor.egg-info/PKG-INFO
+[5.369s] writing dependency_links to ../../build/go2_safety_monitor/go2_safety_monitor.egg-info/dependency_links.txt
+[5.369s] writing entry points to ../../build/go2_safety_monitor/go2_safety_monitor.egg-info/entry_points.txt
+[5.373s] writing requirements to ../../build/go2_safety_monitor/go2_safety_monitor.egg-info/requires.txt
+[5.374s] writing top-level names to ../../build/go2_safety_monitor/go2_safety_monitor.egg-info/top_level.txt
+[5.536s] reading manifest file '../../build/go2_safety_monitor/go2_safety_monitor.egg-info/SOURCES.txt'
+[5.543s] writing manifest file '../../build/go2_safety_monitor/go2_safety_monitor.egg-info/SOURCES.txt'
+[5.544s] running build
+[5.544s] running build_py
+[5.546s] copying go2_safety_monitor/__init__.py -> /home/lukat/COGAR_ws/build/go2_safety_monitor/build/lib/go2_safety_monitor
+[5.546s] copying go2_safety_monitor/safety_monitor_node.py -> /home/lukat/COGAR_ws/build/go2_safety_monitor/build/lib/go2_safety_monitor
+[5.547s] running install
+[5.557s] running install_lib
+[5.614s] running install_data
+[5.616s] copying resource/go2_safety_monitor -> /home/lukat/COGAR_ws/install/go2_safety_monitor/share/ament_index/resource_index/packages
+[5.616s] copying package.xml -> /home/lukat/COGAR_ws/install/go2_safety_monitor/share/go2_safety_monitor
+[5.617s] running install_egg_info
+[5.663s] removing '/home/lukat/COGAR_ws/install/go2_safety_monitor/lib/python3.10/site-packages/go2_safety_monitor-0.0.0-py3.10.egg-info' (and everything under it)
+[5.664s] Copying ../../build/go2_safety_monitor/go2_safety_monitor.egg-info to /home/lukat/COGAR_ws/install/go2_safety_monitor/lib/python3.10/site-packages/go2_safety_monitor-0.0.0-py3.10.egg-info
+[5.673s] running install_scripts
+[6.117s] Installing safety_monitor_node script to /home/lukat/COGAR_ws/install/go2_safety_monitor/lib/go2_safety_monitor
+[6.118s] writing list of installed files to '/home/lukat/COGAR_ws/build/go2_safety_monitor/install.log'
+[6.280s] Invoked command in '/home/lukat/COGAR_ws/src/go2_safety_monitor' returned '0': AMENT_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lukat/COGAR_ws/build/go2_safety_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lukat/COGAR_ws/install/go2_safety_monitor/lib/python3.10/site-packages:/home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_safety_monitor build --build-base /home/lukat/COGAR_ws/build/go2_safety_monitor/build install --record /home/lukat/COGAR_ws/build/go2_safety_monitor/install.log --single-version-externally-managed install_data

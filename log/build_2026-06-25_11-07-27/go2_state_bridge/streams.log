@@ -1,0 +1,27 @@
+[3.735s] Invoking command in '/home/lukat/COGAR_ws/src/go2_state_bridge': AMENT_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lukat/COGAR_ws/build/go2_state_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages:/home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_state_bridge build --build-base /home/lukat/COGAR_ws/build/go2_state_bridge/build install --record /home/lukat/COGAR_ws/build/go2_state_bridge/install.log --single-version-externally-managed install_data
+[4.634s] running egg_info
+[5.343s] writing ../../build/go2_state_bridge/go2_state_bridge.egg-info/PKG-INFO
+[5.348s] writing dependency_links to ../../build/go2_state_bridge/go2_state_bridge.egg-info/dependency_links.txt
+[5.359s] writing entry points to ../../build/go2_state_bridge/go2_state_bridge.egg-info/entry_points.txt
+[5.362s] writing requirements to ../../build/go2_state_bridge/go2_state_bridge.egg-info/requires.txt
+[5.362s] writing top-level names to ../../build/go2_state_bridge/go2_state_bridge.egg-info/top_level.txt
+[5.517s] reading manifest file '../../build/go2_state_bridge/go2_state_bridge.egg-info/SOURCES.txt'
+[5.522s] writing manifest file '../../build/go2_state_bridge/go2_state_bridge.egg-info/SOURCES.txt'
+[5.525s] running build
+[5.525s] running build_py
+[5.525s] copying go2_state_bridge/state_bridge_node.py -> /home/lukat/COGAR_ws/build/go2_state_bridge/build/lib/go2_state_bridge
+[5.527s] copying go2_state_bridge/__init__.py -> /home/lukat/COGAR_ws/build/go2_state_bridge/build/lib/go2_state_bridge
+[5.528s] running install
+[5.541s] running install_lib
+[5.593s] copying /home/lukat/COGAR_ws/build/go2_state_bridge/build/lib/go2_state_bridge/state_bridge_node.py -> /home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge
+[5.597s] byte-compiling /home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge/state_bridge_node.py to state_bridge_node.cpython-310.pyc
+[5.600s] running install_data
+[5.601s] copying resource/go2_state_bridge -> /home/lukat/COGAR_ws/install/go2_state_bridge/share/ament_index/resource_index/packages
+[5.602s] copying package.xml -> /home/lukat/COGAR_ws/install/go2_state_bridge/share/go2_state_bridge
+[5.603s] running install_egg_info
+[5.648s] removing '/home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[5.649s] Copying ../../build/go2_state_bridge/go2_state_bridge.egg-info to /home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages/go2_state_bridge-0.0.0-py3.10.egg-info
+[5.652s] running install_scripts
+[6.099s] Installing state_bridge_node script to /home/lukat/COGAR_ws/install/go2_state_bridge/lib/go2_state_bridge
+[6.100s] writing list of installed files to '/home/lukat/COGAR_ws/build/go2_state_bridge/install.log'
+[6.231s] Invoked command in '/home/lukat/COGAR_ws/src/go2_state_bridge' returned '0': AMENT_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lukat/COGAR_ws/install/go2_stair_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lukat/COGAR_ws/build/go2_state_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lukat/COGAR_ws/install/go2_state_bridge/lib/python3.10/site-packages:/home/lukat/COGAR_ws/install/go2_stair_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_state_bridge build --build-base /home/lukat/COGAR_ws/build/go2_state_bridge/build install --record /home/lukat/COGAR_ws/build/go2_state_bridge/install.log --single-version-externally-managed install_data

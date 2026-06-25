@@ -78,6 +78,7 @@ rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_st
 rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h: rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyState.idl
+rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h: rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyStatus.idl
 rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -113,8 +114,14 @@ rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_st
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lukat/COGAR_ws/build/go2_stair_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c
+
+rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c
 
 CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c.o: CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c.o: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c
@@ -130,14 +137,30 @@ CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_t
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c -o CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c.s
 
+CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o: CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c
+CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o: CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lukat/COGAR_ws/build/go2_stair_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o -MF CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o.d -o CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o -c /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c
+
+CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c > CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.i
+
+CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c -o CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.s
+
 # Object files for target go2_stair_interfaces__rosidl_typesupport_introspection_c
 go2_stair_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c.o"
+"CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c.o" \
+"CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o"
 
 # External object files for target go2_stair_interfaces__rosidl_typesupport_introspection_c
 go2_stair_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c.o
+libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c.o
 libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: libgo2_stair_interfaces__rosidl_generator_c.so
 libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
@@ -148,7 +171,7 @@ libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/
 libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lukat/COGAR_ws/build/go2_stair_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lukat/COGAR_ws/build/go2_stair_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libgo2_stair_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +184,8 @@ CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__rosidl_typesupport_introspection_c.h
 CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.c
+CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__rosidl_typesupport_introspection_c.h
+CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.c
 	cd /home/lukat/COGAR_ws/build/go2_stair_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lukat/COGAR_ws/src/go2_stair_interfaces /home/lukat/COGAR_ws/src/go2_stair_interfaces /home/lukat/COGAR_ws/build/go2_stair_interfaces /home/lukat/COGAR_ws/build/go2_stair_interfaces /home/lukat/COGAR_ws/build/go2_stair_interfaces/CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

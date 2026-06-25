@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__struct.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
   "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__traits.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
   "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
+  "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__builder.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
+  "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__struct.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
+  "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__traits.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
+  "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
+  "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_status.hpp" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp"
   )
 
 

@@ -3,7 +3,8 @@
   "output_dir": "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_typesupport_cpp/go2_stair_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces:msg/Go2SafetyState.idl"
+    "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces:msg/Go2SafetyState.idl",
+    "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces:msg/Go2SafetyStatus.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -47,6 +48,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyState.idl",
+    "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyStatus.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

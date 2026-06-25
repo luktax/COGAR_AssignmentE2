@@ -71,6 +71,11 @@ CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/
 CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__struct.hpp
 CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__traits.hpp
 CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.hpp
+CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_status.hpp
+CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__builder.hpp
+CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__struct.hpp
+CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__traits.hpp
+CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.hpp
 CMakeFiles/go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: /opt/ros/hum
 rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyState.idl
+rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyStatus.idl
 rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -136,12 +142,32 @@ rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__traits.hp
 rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.hpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.hpp
 
+rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_status.hpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_status.hpp
+
+rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__builder.hpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__builder.hpp
+
+rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__struct.hpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__struct.hpp
+
+rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__traits.hpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__traits.hpp
+
+rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.hpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.hpp
+
 go2_stair_interfaces__cpp: CMakeFiles/go2_stair_interfaces__cpp
 go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__builder.hpp
 go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__struct.hpp
 go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__traits.hpp
 go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__type_support.hpp
+go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__builder.hpp
+go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__struct.hpp
+go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__traits.hpp
+go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.hpp
 go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_state.hpp
+go2_stair_interfaces__cpp: rosidl_generator_cpp/go2_stair_interfaces/msg/go2_safety_status.hpp
 go2_stair_interfaces__cpp: CMakeFiles/go2_stair_interfaces__cpp.dir/build.make
 .PHONY : go2_stair_interfaces__cpp
 

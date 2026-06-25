@@ -70,8 +70,10 @@ go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_p
 go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_c.c
 go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state.py
+go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status.py
 go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/__init__.py
 go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state_s.c
+go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status_s.c
 
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_types
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyState.idl
+rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/go2_stair_interfaces/msg/Go2SafetyStatus.idl
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -131,11 +134,17 @@ rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_types
 rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state.py: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state.py
 
+rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status.py: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status.py
+
 rosidl_generator_py/go2_stair_interfaces/msg/__init__.py: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/go2_stair_interfaces/msg/__init__.py
 
 rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state_s.c: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state_s.c
+
+rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status_s.c: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status_s.c
 
 go2_stair_interfaces__py: go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py
 go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/_go2_stair_interfaces_s.ep.rosidl_typesupport_c.c
@@ -144,6 +153,8 @@ go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/_go2_stair_in
 go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/__init__.py
 go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state.py
 go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_state_s.c
+go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status.py
+go2_stair_interfaces__py: rosidl_generator_py/go2_stair_interfaces/msg/_go2_safety_status_s.c
 go2_stair_interfaces__py: go2_stair_interfaces__py/CMakeFiles/go2_stair_interfaces__py.dir/build.make
 .PHONY : go2_stair_interfaces__py
 

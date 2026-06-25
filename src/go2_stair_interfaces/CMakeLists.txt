@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Go2SafetyState.msg"
+  "msg/Go2SafetyStatus.msg"
   DEPENDENCIES std_msgs
 )
 

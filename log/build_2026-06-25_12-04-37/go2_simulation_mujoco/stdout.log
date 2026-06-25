@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/dependency_links.txt
+writing requirements to ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/requires.txt
+writing top-level names to ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/top_level.txt
+reading manifest file '../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info/SOURCES.txt'
+running build
+running build_py
+copying go2_simulation_mujoco/__init__.py -> /home/lukat/COGAR_ws/build/go2_simulation_mujoco/build/lib/go2_simulation_mujoco
+running install
+running install_lib
+running install_data
+copying resource/go2_simulation_mujoco -> /home/lukat/COGAR_ws/install/go2_simulation_mujoco/share/ament_index/resource_index/packages
+copying package.xml -> /home/lukat/COGAR_ws/install/go2_simulation_mujoco/share/go2_simulation_mujoco
+running install_egg_info
+removing '/home/lukat/COGAR_ws/install/go2_simulation_mujoco/lib/python3.10/site-packages/go2_simulation_mujoco-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/go2_simulation_mujoco/go2_simulation_mujoco.egg-info to /home/lukat/COGAR_ws/install/go2_simulation_mujoco/lib/python3.10/site-packages/go2_simulation_mujoco-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lukat/COGAR_ws/build/go2_simulation_mujoco/install.log'

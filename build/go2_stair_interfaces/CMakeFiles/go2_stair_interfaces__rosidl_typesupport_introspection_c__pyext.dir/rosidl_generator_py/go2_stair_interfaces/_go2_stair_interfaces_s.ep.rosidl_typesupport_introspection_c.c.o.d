@@ -208,4 +208,7 @@ CMakeFiles/go2_stair_interfaces__rosidl_typesupport_introspection_c__pyext.dir/r
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_c/go2_stair_interfaces/msg/detail/go2_safety_state__functions.h
+ /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_c/go2_stair_interfaces/msg/detail/go2_safety_state__functions.h \
+ /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_c/go2_stair_interfaces/msg/detail/go2_safety_status__type_support.h \
+ /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_c/go2_stair_interfaces/msg/detail/go2_safety_status__struct.h \
+ /home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_c/go2_stair_interfaces/msg/detail/go2_safety_status__functions.h

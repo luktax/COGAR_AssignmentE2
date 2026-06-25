@@ -67,6 +67,7 @@ include CMakeFiles/go2_stair_interfaces.dir/compiler_depend.make
 include CMakeFiles/go2_stair_interfaces.dir/progress.make
 
 CMakeFiles/go2_stair_interfaces: /home/lukat/COGAR_ws/src/go2_stair_interfaces/msg/Go2SafetyState.msg
+CMakeFiles/go2_stair_interfaces: /home/lukat/COGAR_ws/src/go2_stair_interfaces/msg/Go2SafetyStatus.msg
 CMakeFiles/go2_stair_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/go2_stair_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/go2_stair_interfaces: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
