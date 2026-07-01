@@ -1,2 +1,0 @@
-Invoking command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces': /usr/bin/cmake /home/lukat/COGAR_ws/src/go2_stair_interfaces -DCMAKE_INSTALL_PREFIX=/home/lukat/COGAR_ws/install/go2_stair_interfaces
-Invoked command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces' returned '1': /usr/bin/cmake /home/lukat/COGAR_ws/src/go2_stair_interfaces -DCMAKE_INSTALL_PREFIX=/home/lukat/COGAR_ws/install/go2_stair_interfaces

@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'go2_velocity_supervisor'
+package_name = 'go2_sport_cmd_bridge'
 
 setup(
     name=package_name,
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'velocity_supervisor_node = go2_velocity_supervisor.velocity_supervisor_node:main',
+            'sport_cmd_bridge_node = go2_sport_cmd_bridge.sport_cmd_bridge_node:main'
         ],
     },
 )

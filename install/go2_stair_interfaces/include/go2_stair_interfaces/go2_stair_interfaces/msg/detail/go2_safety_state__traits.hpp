@@ -1,1 +1,0 @@
-/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_cpp/go2_stair_interfaces/msg/detail/go2_safety_state__traits.hpp

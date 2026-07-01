@@ -1,1 +1,0 @@
-/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

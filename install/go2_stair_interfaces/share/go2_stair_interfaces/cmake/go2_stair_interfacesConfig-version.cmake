@@ -1,1 +1,0 @@
-/home/lukat/COGAR_ws/build/go2_stair_interfaces/ament_cmake_core/go2_stair_interfacesConfig-version.cmake

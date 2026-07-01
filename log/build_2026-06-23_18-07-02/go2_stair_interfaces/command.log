@@ -1,6 +1,0 @@
-Invoking command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lukat/COGAR_ws/src/go2_stair_interfaces -DCMAKE_INSTALL_PREFIX=/home/lukat/COGAR_ws/install/go2_stair_interfaces
-Invoked command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lukat/COGAR_ws/src/go2_stair_interfaces -DCMAKE_INSTALL_PREFIX=/home/lukat/COGAR_ws/install/go2_stair_interfaces
-Invoking command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lukat/COGAR_ws/build/go2_stair_interfaces -- -j8 -l8
-Invoked command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lukat/COGAR_ws/build/go2_stair_interfaces -- -j8 -l8
-Invoking command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lukat/COGAR_ws/build/go2_stair_interfaces
-Invoked command in '/home/lukat/COGAR_ws/build/go2_stair_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lukat/COGAR_ws/build/go2_stair_interfaces

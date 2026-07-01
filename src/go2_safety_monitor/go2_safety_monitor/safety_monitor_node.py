@@ -20,21 +20,21 @@ class Go2SafetyMonitor(Node):
         self.calibration_time_s = 2.0
 
         # Roll thresholds
-        self.roll_warning = math.radians(6.0)
-        self.roll_stop = math.radians(10.0)
-        self.roll_recovery = math.radians(20.0)
+        self.roll_warning = math.radians(15.0)
+        self.roll_stop = math.radians(25.0)
+        self.roll_recovery = math.radians(35.0)
 
         # Pitch thresholds
-        self.pitch_warning = math.radians(12.0)
-        self.pitch_stop = math.radians(25.0)
-        self.pitch_recovery = math.radians(35.0)
+        self.pitch_warning = math.radians(18.0)
+        self.pitch_stop = math.radians(35.0)
+        self.pitch_recovery = math.radians(45.0)
 
         # Angular rate thresholds
-        self.roll_rate_warning = 0.6
-        self.roll_rate_stop = 1.0
+        self.roll_rate_warning = 1.5
+        self.roll_rate_stop = 2.5
 
-        self.pitch_rate_warning = 0.6
-        self.pitch_rate_stop = 1.0
+        self.pitch_rate_warning = 1.5
+        self.pitch_rate_stop = 2.5
 
         # State timeout
         self.state_timeout_s = 0.20

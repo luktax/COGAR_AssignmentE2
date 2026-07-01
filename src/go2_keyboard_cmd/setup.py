@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'go2_velocity_supervisor'
+package_name = 'go2_keyboard_cmd'
 
 setup(
     name=package_name,
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'velocity_supervisor_node = go2_velocity_supervisor.velocity_supervisor_node:main',
+            'keyboard_cmd_node = go2_keyboard_cmd.keyboard_cmd_node:main'
         ],
     },
 )

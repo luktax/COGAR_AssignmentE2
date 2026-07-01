@@ -18,17 +18,17 @@ class Go2VelocitySupervisor(Node):
         self.cmd_output_topic = "/go2/cmd_vel_safe"
 
         # Same thresholds used conceptually by the safety monitor
-        self.roll_warning = math.radians(6.0)
-        self.roll_stop = math.radians(10.0)
+        self.roll_warning = math.radians(15.0)
+        self.roll_stop = math.radians(25.0)
 
-        self.pitch_warning = math.radians(12.0)
-        self.pitch_stop = math.radians(25.0)
+        self.pitch_warning = math.radians(18.0)
+        self.pitch_stop = math.radians(35.0)
 
-        self.roll_rate_warning = 0.6
-        self.roll_rate_stop = 1.0
+        self.roll_rate_warning = 1.5
+        self.roll_rate_stop = 2.5
 
-        self.pitch_rate_warning = 0.6
-        self.pitch_rate_stop = 1.0
+        self.pitch_rate_warning = 1.5
+        self.pitch_rate_stop = 2.5
 
         # Command limits
         self.max_abs_vx = 0.50

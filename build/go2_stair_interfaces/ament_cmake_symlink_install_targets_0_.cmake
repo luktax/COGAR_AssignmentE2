@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lukat/COGAR_ws/build/go2_stair_interfaces/rosidl_generator_py/go2_stair_interfaces/go2_stair_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "go2_stair_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/go2_stair_interfaces")
